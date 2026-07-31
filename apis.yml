@@ -1,7 +1,25 @@
 aid: novamab
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novamab.png
 name: novamab
-description: novamab is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Novamab (洛启生物) is a Shanghai-based clinical-stage biopharmaceutical company
+  specializing in VHH (nanobody) antibody drug development for respiratory and inflammatory
+  diseases such as asthma, COPD, and IBD. Its platforms span inhaled antibodies, oral
+  antibodies, and dual/multi-specific antibodies alongside integrated drug formulation
+  and manufacturing. Surfaced as a portfolio company of qiming and added to the API
+  Evangelist network as a stub; enrichment confirmed the company publishes a corporate
+  website but no developer API, documentation portal, SDKs, or other machine-readable
+  API surface.
 url: https://raw.githubusercontent.com/api-evangelist/novamab/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Pharmaceutical
+- Biopharmaceutical
+- Antibody
+- Nanobody
+- Drug Development
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://novamab.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
